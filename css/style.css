@@ -1,24 +1,140 @@
-table{
-  border-spacing: 5px;
-  padding: 10px;
-}
-body{
-  background-color: #E4EFE7;
-}
-hr{
-  border-style: none;
-  border-top-style: dotted;
-  width: 5%;
-  border-color: #66BFBF;
-  border-width: 5px;
-}
-img{
-  height: 150px;
+/* ************************** TAG SELECTORS ************************* */
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  /* 100% = 16px = 1rem */
+  color: #66BFBF;
+  width: 50%;
+  margin:auto;
 }
 
-h1{
-  color: #055052;
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
 }
-h3{
-  color: #055052;
+
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+hr{
+  border-style: dotted;
+  border-width: 5px;
+  border-bottom: 0;
+  border-color: grey;
+  width: 2.5%;
+  margin: 100px auto;
+}
+
+/* ************************** CLASS SELECTORS ************************* */
+
+.programmer {
+  font-weight: normal;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  margin: 0;
+  padding-top: 80px;
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 250px;
+}
+
+.profile{
+  width: 50%;
+  margin:auto;
+}
+
+.skill-row{
+  width:50%;
+  margin:100px auto;
+  text-align: left;
+  line-height: 2; /* not needed any parameters here 2 means double the size */
+}
+
+.cpp-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.webdev-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.middle-container{
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+.contact-description{
+  margin-bottom: 50px;
+}
+.btn {
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   color: #FFFFFF;
+   font-family: Open Sans;
+   font-size: 1rem;
+   padding: 15px;
+   background-color: #11999E;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   background: #0C5D60;
+   border: solid #0B5F62 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 10px;
+   text-decoration: none;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  margin-bottom: 0;
+  padding: 40px 0;
+}
+
+
+.footer-link{
+  margin: 0 20px;
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.copyright{
+  color: #EAF6F6;
+  margin-top: 40px;
+  margin-bottom: 0;
+  font-size: 0.8rem;
 }
